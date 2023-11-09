@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ptb-ext"
+version = "0.1.0"
+description = "Useful helper functions & extensions for the python-telegram-bot framework"
+authors = ["lurian <lurian-code@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = {extras = ["all"], version = "^20.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
