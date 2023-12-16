@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ptb-ext"
-version = "0.1.2"
+version = "0.1.3"
 description = "Useful helper functions & extensions for the python-telegram-bot framework"
 authors = ["lurian <lurian-code@protonmail.com>"]
 readme = "README.md"

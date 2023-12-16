@@ -44,7 +44,7 @@ def next_reply_handler(*, entry_point: NextReplyEntrypoint, cancel_command: str 
         conversation = ConversationHandler(
             entry_points=entry_points, # type: ignore
             states = {
-                1: [MessageHandler(callback=f, filters=tg_filters.TEXT)],
+                1: [MessageHandler(callback=f, filters=tg_filters.ALL)],
             },
             fallbacks=[CommandHandler(cancel_command, callback=cancel)],
         )
